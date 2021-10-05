@@ -22,3 +22,4 @@ while 1:
 		print("Menu yang dipilih tidak ada")
 
 ```
+![Result](IMG_20211005_212618.jpg)
