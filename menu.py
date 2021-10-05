@@ -12,7 +12,8 @@ class MENU(dict):
 			print(f"[{number}]. {info}")
 			
 	def getFunctionNumber(self, number):
-		result = self.get(number)
-		if(result != None):
+		result = self.get(number, False)
+		if(result):
 			result[0]()
-		return
+			return True
+		return result
