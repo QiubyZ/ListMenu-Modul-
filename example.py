@@ -14,11 +14,11 @@ menu.add(func=D, info="Keterangan def D")
 menu.add(func=E, args=('E'), info="Keterangan def parameter args")
 
 menu.showListMenu()
+
+pilihan = 1
 while 1:
-	pilihan = 1
 	a = menu.getFunctionNumber(pilihan)
 	if(a != True):
 		print("Menu yang dipilih tidak ada")
 		break
 	pilihan += 1
-
