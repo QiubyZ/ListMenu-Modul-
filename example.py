@@ -15,7 +15,10 @@ menu.add(func=E, args=('E'), info="Keterangan def parameter args")
 
 menu.showListMenu()
 while 1:
-	a = menu.getFunctionNumber(int(input("Pilih Menu: ")))
+	pilihan = 1
+	a = menu.getFunctionNumber(pilihan)
 	if(a != True):
 		print("Menu yang dipilih tidak ada")
+		break
+	pilihan += 1
 
