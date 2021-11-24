@@ -1,6 +1,7 @@
 # Listmenu
 
 ```python
+from Menu.menu import MENU
 
 def A(): print("ini adalah def A")
 def B(): print("ini adalah def B")
